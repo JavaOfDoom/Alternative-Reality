@@ -1,0 +1,53 @@
+html, body {
+	background-color: #101F26;
+	color: white;
+	text-align: center;
+}
+
+nav {
+	text-align: right;
+	position: fixed;
+	width: 100%;
+	background-color: black;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 55px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+.fab {
+	padding: 6px;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	margin: 10px 5px;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-instagram {
+	background: #f09433; 
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-youtube {
+	background: #BB0000;
+	color: white;
+}
