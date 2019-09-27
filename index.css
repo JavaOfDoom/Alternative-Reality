@@ -1,5 +1,18 @@
+:root {
+	--ar-blue: #03131c;
+	--ar-green: #afff15;
+}
+
 html, body {
-	background-color: #101F26;
-	color: white;
+	background-color: var(--ar-blue);
+	color: var(--ar-green);
 	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.fab {
+	color: var(--ar-green);
 }
